@@ -10,3 +10,8 @@ a:visited {color: rgb(17, 0, 209);}
 a:hover {color:rgb(218, 22, 61);
     text-shadow: 2px 2px 10px #f70000;
     filter: dropshadow(color=#b30000, offx=2, offy=2);}
+#gitimage {position:fixed;
+    right: 50%;
+    top:50%;
+    width: 30px;
+    height: 30px;}
