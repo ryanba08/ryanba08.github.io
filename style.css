@@ -10,8 +10,19 @@ a:visited {color: rgb(17, 0, 209);}
 a:hover {color:rgb(218, 22, 61);
     text-shadow: 2px 2px 10px #f70000;
     filter: dropshadow(color=#b30000, offx=2, offy=2);}
-#gitimage {position:fixed;
-    right: 50%;
-    top:50%;
-    width: 30px;
-    height: 30px;}
+#git_image {position:fixed;
+    left: 100px;
+    top:200px;
+    width: 60px;
+    height: 60px;}
+#about_me {position:fixed;
+    left: 180px;
+    top:200px;
+    width: 62px;
+    height: 62px;}
+
+#intro {color: rgb(217, 217, 217);
+    position: fixed;
+    left: 30%;
+    top: 30%;
+    font-size: 30px;font-family: 'Franklin Gothic Medium';}
