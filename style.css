@@ -1,28 +1,61 @@
-body {background-color: rgb(41, 41, 41);
-    color: rgb(255, 255, 255);}
+body {
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+}
 
-a {font-size: 30px}
+#container {
+    padding: 2rem;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
 
-a:link {color: rgb(17, 0, 209);}
-
-a:visited {color: rgb(17, 0, 209);}
-
-a:hover {color:rgb(218, 22, 61);
-    text-shadow: 2px 2px 10px #f70000;
-    filter: dropshadow(color=#b30000, offx=2, offy=2);}
-#git_image {position:fixed;
-    left: 100px;
-    top:200px;
+#git_image {
     width: 60px;
-    height: 60px;}
-#about_me {position:fixed;
+    height: 60px;
+}
+
+#about_me {
+    position:fixed;
     left: 180px;
     top:200px;
     width: 62px;
-    height: 62px;}
+    height: 62px;
+}
 
-#intro {color: rgb(217, 217, 217);
+#intro {
+    color: rgb(217, 217, 217);
     position: fixed;
     left: 30%;
     top: 30%;
-    font-size: 30px;font-family: 'Franklin Gothic Medium';}
+    font-size: 30px;font-family: Helvetica;
+}
+a {
+    text-align:  center;
+}
+p {
+    text-align: center;
+    font-size: 7em;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1;
+    text-decoration: none;
+    color: #fff;
+}
+      
+#neon_me {
+    font-family: 'Pacifico', cursive;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+        0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+        0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+    }
+}
