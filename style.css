@@ -28,11 +28,12 @@ body {
 }
 
 #intro {
+    position: relative;
+    bottom: 440px;
     color: rgb(217, 217, 217);
-    position: fixed;
-    left: 30%;
-    top: 30%;
-    font-size: 30px;font-family: Helvetica;
+    font-size:22px;
+    text-align:center;
+    font-family: Helvetica;
 }
 
 #rc {
