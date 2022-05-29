@@ -19,17 +19,30 @@ body {
     bottom:530px;
 }
 
+#linked_in_link{
+
+    position: relative;
+    left:90px;
+    bottom:550px;
+}
+
+
+#linked_in_image {
+    width: 40px;
+    height: 40px;
+}
+
 #about_me {
     position:fixed;
     left: 180px;
-    top:200px;
+    top: 180px;
     width: 62px;
     height: 62px;
 }
 
 #intro {
     position: relative;
-    bottom: 440px;
+    bottom: 460px;
     color: rgb(245, 245, 245);
     font-size:20px;
     line-height: 28px;
@@ -38,9 +51,11 @@ body {
 }
 
 #rc {
+    z-index: 1;
     position: relative;
     bottom: 100px;
     color: rgb(245, 245, 245);
     font-size: 250px;
     font-family:'Times New Roman';
+    pointer-events: none;
 }
