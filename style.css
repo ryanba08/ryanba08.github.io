@@ -59,3 +59,8 @@ body {
     font-family:'Times New Roman';
     pointer-events: none;
 }
+a.highlight:hover {border-bottom:3px solid rgb(145, 145, 145)
+}
+
+a.highlight:visited {color: rgb(255, 255, 255);
+}
