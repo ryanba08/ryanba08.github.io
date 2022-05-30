@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#git_image {
+    width: 35px;
+    height: 35px;
+}
+#git_link {
+    position: relative;
+    right:95px;
+    bottom:530px;
+}
+
+#linked_in_link{
+
+    position: relative;
+    left:90px;
+    bottom:550px;
+}
+
+
+#linked_in_image {
+    width: 40px;
+    height: 40px;
+}
+
+#about_me {
+    position: relative;
+    top: 100px;
+    color: rgb(245, 245, 245);
+    font-size:30px;
+    line-height: 60px;
+    text-align:center;
+    font-family: Helvetica;
+}
+
+#intro {
+    position: relative;
+    bottom: 460px;
+    color: rgb(245, 245, 245);
+    font-size:20px;
+    line-height: 28px;
+    text-align:center;
+    font-family: Helvetica;
+}
+
+#rc {
+    z-index: 1;
+    position: relative;
+    bottom: 100px;
+    color: rgb(245, 245, 245);
+    font-size: 250px;
+    font-family:'Times New Roman';
+    pointer-events: none;
+}
+a,a:visited{color:#fff;cursor:pointer;text-decoration:none;transition:all .15s ease}
+a.highlight:hover{border-bottom:3px solid hsla(0,0%,100%,.2)}
+a:hover,a:visited:hover{color:#fff}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#back_arrow{position: relative;
+    color: rgb(150 , 150, 150);
+    top: 120px;
+    right: 280px;
+}
+#back_arrow:hover{color: rgb(255, 255, 255);
+}
