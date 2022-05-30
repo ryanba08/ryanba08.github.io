@@ -36,8 +36,8 @@ div.container {
     position: relative;
     top: 100px;
     color: rgb(245, 245, 245);
-    font-size:20px;
-    line-height: 28px;
+    font-size:30px;
+    line-height: 40px;
     text-align:center;
     font-family: Helvetica;
 }
@@ -64,3 +64,8 @@ div.container {
 a,a:visited{color:#fff;cursor:pointer;text-decoration:none;transition:all .15s ease}
 a.highlight:hover{border-bottom:3px solid hsla(0,0%,100%,.2)}
 a:hover,a:visited:hover{color:#fff}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
