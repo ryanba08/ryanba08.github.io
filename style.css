@@ -3,7 +3,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#container {
+div.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,11 +33,13 @@ body {
 }
 
 #about_me {
-    position:fixed;
-    left: 180px;
-    top: 180px;
-    width: 62px;
-    height: 62px;
+    position: relative;
+    top: 100px;
+    color: rgb(245, 245, 245);
+    font-size:20px;
+    line-height: 28px;
+    text-align:center;
+    font-family: Helvetica;
 }
 
 #intro {
@@ -59,8 +61,6 @@ body {
     font-family:'Times New Roman';
     pointer-events: none;
 }
-a.highlight:hover {border-bottom:3px solid rgb(145, 145, 145)
-}
-
-a.highlight:visited {color: rgb(255, 255, 255);
-}
+a,a:visited{color:#fff;cursor:pointer;text-decoration:none;transition:all .15s ease}
+a.highlight:hover{border-bottom:3px solid hsla(0,0%,100%,.2)}
+a:hover,a:visited:hover{color:#fff}
