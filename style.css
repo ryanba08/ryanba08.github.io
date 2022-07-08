@@ -8,7 +8,52 @@ div.container {
     flex-direction: column;
     align-items: center;
 }
+div.container_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: Left;
+}
+#projects {
+    position: relative;
+    bottom: 600px;
+    color: rgb(245, 245, 245);
+    font-size: 40px;
+    font-family:'Times New Roman';
+    pointer-events: none;
+}
+#pro1 {
+    position: relative;
+    color: rgb(245, 245, 245);
+    font-family: Helvetica;
+    line-height: 40px;
+    font-size:20px;
+    bottom: 620px;
+}
+#pro2 {
+    position: relative;
+    font-family: Helvetica;
+    color: rgb(245, 245, 245);
+    line-height: 40px;
+    font-size:15px;
+    bottom: 550px;
+}
+#dashboard_thumbnail{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    bottom: 600px;
 
+}
+#links {
+    font-size: 16px;
+    position: relative;
+    left: 20px;
+}
+#links2 {
+    font-size: 16px;
+    position: relative;
+    left: 40px;
+}
 #git_image {
     width: 35px;
     height: 35px;
@@ -16,14 +61,14 @@ div.container {
 #git_link {
     position: relative;
     right:95px;
-    bottom:530px;
+    bottom:630px;
 }
 
 #linked_in_link{
 
     position: relative;
     left:90px;
-    bottom:550px;
+    bottom:660px;
 }
 
 
@@ -44,7 +89,7 @@ div.container {
 
 #intro {
     position: relative;
-    bottom: 460px;
+    bottom: 560px;
     color: rgb(245, 245, 245);
     font-size:20px;
     line-height: 28px;
@@ -55,7 +100,7 @@ div.container {
 #rc {
     z-index: 1;
     position: relative;
-    bottom: 100px;
+    bottom: 200px;
     color: rgb(245, 245, 245);
     font-size: 250px;
     font-family:'Times New Roman';
