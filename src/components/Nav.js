@@ -6,13 +6,13 @@ const Nav = () => {
       <div></div>
       <ul className="flex">
         <li className="mr-8 hover:text-purple-500 hover:animate-bounce2">
-          <a href="/Features">Projects</a>
+          <a>Projects</a>
         </li>
         <li className="mr-8 hover:text-purple-500 hover:animate-bounce2">
-          <a href="/Login">Skills</a>
+          <a>Skills</a>
         </li>
         <li className="hover:text-purple-500 hover:animate-bounce2">
-          <a href="/Login">About Me</a>
+          <a>About Me</a>
         </li>
       </ul>
     </div>
