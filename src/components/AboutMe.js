@@ -1,16 +1,15 @@
-import React, { useState } from "react";
-
-export default function Projects() {
-  const [effect, setEffect] = useState(true);
+import React, { Component, useState } from "react";
+const AboutMe = () => {
   const glowingLine = "w-10/12 h-1 rounded-md mx-auto mt-1";
   const downArrow =
     "mx-auto w-5 h-5 border-t-[3px] border-r-[3px] border-solid rotate-[135deg] hover:border-purple-500 mt-2";
+  const [effect, setEffect] = useState(true);
   function grab() {
-    return document.getElementById("aboutMe");
+    return document.getElementById("project");
   }
 
   return (
-    <div id="project" className="grid text-4xl text-center mt-40">
+    <div id="aboutMe" className="grid text-4xl text-center mt-20">
       <div
         className="mx-auto hover:text-purple-500 hover:animate-bounce2"
         onClick={() => {
@@ -20,7 +19,7 @@ export default function Projects() {
             : (grab().style.display = "grid");
         }}
       >
-        Projects
+        About Me
       </div>
       <div
         className={
@@ -42,7 +41,9 @@ export default function Projects() {
             : (grab().style.display = "grid");
         }}
       ></div>
-      <div className={effect ? "hidden" : ""}>Projects Yea Yea</div>
+      <div className={effect ? "hidden" : ""}>Ryan Cannady</div>
     </div>
   );
-}
+};
+
+export default AboutMe;
