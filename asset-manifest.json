@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ryanba08.github.io/static/css/main.8c318058.css",
-    "main.js": "/ryanba08.github.io/static/js/main.370f4b7f.js",
+    "main.js": "/ryanba08.github.io/static/js/main.cd77e4c9.js",
     "index.html": "/ryanba08.github.io/index.html",
     "main.8c318058.css.map": "/ryanba08.github.io/static/css/main.8c318058.css.map",
-    "main.370f4b7f.js.map": "/ryanba08.github.io/static/js/main.370f4b7f.js.map"
+    "main.cd77e4c9.js.map": "/ryanba08.github.io/static/js/main.cd77e4c9.js.map"
   },
   "entrypoints": [
     "static/css/main.8c318058.css",
-    "static/js/main.370f4b7f.js"
+    "static/js/main.cd77e4c9.js"
   ]
 }
