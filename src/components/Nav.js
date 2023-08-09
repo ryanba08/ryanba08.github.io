@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function Nav() {
   const textStyle = "mr-4 md:mr-8 hover:text-purple-500 hover:animate-bounce2";

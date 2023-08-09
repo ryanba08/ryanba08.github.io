@@ -1,15 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import Nav from "./components/Nav";
-import AboutMe from "./components/AboutMe";
-import Background from "./components/Background";
+import Home from "./pages/Home";
+import ReactDOM from "react-dom";
+import Projects from "./pages/Projects";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <html className=" selection:text-purple-500">
-    <Background />
-    <Nav />
-    <AboutMe />
-  </html>
-);
+root.render(<App />);
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
