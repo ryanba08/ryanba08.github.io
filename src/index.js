@@ -9,9 +9,9 @@ root.render(<App />);
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </Router>
