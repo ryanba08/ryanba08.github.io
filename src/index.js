@@ -10,7 +10,7 @@ root.render(<App />);
 function App() {
   return (
     <div className="App">
-      <Router basename="/ryanba08.github.io">
+      <Router basename="/">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
