@@ -5,11 +5,10 @@ import Nav from "./components/Nav";
 import AboutMe from "./components/AboutMe";
 import Background from "./components/Background";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+const project = ReactDOM.createRoot(document.getElementById("projects"));
+project.render(
   <html className=" selection:text-purple-500">
     <Background />
     <Nav />
-    <AboutMe />
   </html>
 );
