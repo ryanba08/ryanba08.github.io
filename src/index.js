@@ -10,11 +10,11 @@ root.render(<App />);
 
 function App() {
   return (
-    <BrowserRouter basename="https://github.com/ryanba08/ryanba08.github.io">
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
