@@ -1,5 +1,6 @@
 import Home from "./pages/Home";
 import ReactDOM from "react-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import Projects from "./pages/Projects";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./app.css";
@@ -9,13 +10,11 @@ root.render(<App />);
 
 function App() {
   return (
-    <div className="App">
-      <Router basename="/">
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-      </Router>
-    </div>
+    <BrowserRouter basename="https://github.com/ryanba08/ryanba08.github.io">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
